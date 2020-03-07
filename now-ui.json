@@ -1,0 +1,8 @@
+{
+	"components": {
+	    "snc-sentiment-rank": {
+	        "innerComponents": []
+	    }
+	},
+	"scopeName": "x_snc_c_sentrank"
+}

@@ -1,0 +1,1 @@
+import './snc-sentiment-rank';
