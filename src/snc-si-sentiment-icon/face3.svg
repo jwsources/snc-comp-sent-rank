@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="36px" height="36px" viewBox="0 0 36 36" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <!-- Generator: Sketch 61.2 (89653) - https://sketch.com -->
+    <title>face3</title>
+    <desc>Created with Sketch.</desc>
+    <g id="Page-1" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="face3" transform="translate(1.000000, 1.000000)">
+            <circle id="Oval" stroke="#425051" stroke-width="2" fill="#FFED7E" cx="17" cy="17" r="17"></circle>
+            <g id="eyes" transform="translate(9.000000, 11.000000)" fill="#425051">
+                <circle id="Oval" cx="3" cy="3" r="3"></circle>
+                <circle id="Oval-Copy" cx="13" cy="3" r="3"></circle>
+            </g>
+            <line x1="10.5" y1="23.5" x2="23.5" y2="23.5" id="Line" stroke="#425051" stroke-width="2" stroke-linecap="round"></line>
+        </g>
+    </g>
+</svg>

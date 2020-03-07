@@ -1,0 +1,25 @@
+.rank {
+    display: flex;
+    height: 132px;
+    width: 100%;
+    background-color: #F6F6F6;
+    flex-wrap: wrap;
+    padding: 0 26px;
+    box-sizing: border-box;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.icons {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 100%;
+}
+
+.message {
+    display: flex;
+    align-items: center;
+    margin-top: 10px;
+}

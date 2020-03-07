@@ -1,14 +1,15 @@
 import {createCustomElement} from '@servicenow/ui-core';
 import snabbdom from '@servicenow/ui-renderer-snabbdom';
 import styles from './styles.scss';
+import timeline from './timeline.svg';
 
 const view = (state, {updateState}) => {
 	return (
-		<div></div>
+		<img src={timeline}></img>
 	);
 };
 
-createCustomElement('snc-sentiment-rank', {
+createCustomElement('snc-si-sentiment-timeline', {
 	renderer: {type: snabbdom},
 	view,
 	styles

@@ -1,1 +1,1 @@
-import './snc-sentiment-rank';
+import './snc-si-sentiment-rank';

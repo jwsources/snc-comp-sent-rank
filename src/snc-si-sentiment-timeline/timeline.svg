@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="276px" height="132px" viewBox="0 0 276 132" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <!-- Generator: Sketch 61.2 (89653) - https://sketch.com -->
+    <title>Group Copy</title>
+    <desc>Created with Sketch.</desc>
+    <g id="Page-1" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="Group-Copy">
+            <rect id="Rectangle" fill="#F6F6F6" x="0" y="0" width="276" height="132"></rect>
+            <g id="months" transform="translate(11.000000, 105.000000)" fill="#425051" font-family="SourceSansPro-SemiBold, Source Sans Pro" font-size="9" font-weight="500">
+                <text id="Jan">
+                    <tspan x="0.935" y="9">Jan</tspan>
+                </text>
+                <text id="Feb">
+                    <tspan x="22.39" y="9">Feb</tspan>
+                </text>
+                <text id="Mar">
+                    <tspan x="44.147" y="9">Mar</tspan>
+                </text>
+                <text id="Apr">
+                    <tspan x="66.2725" y="9">Apr</tspan>
+                </text>
+                <text id="May">
+                    <tspan x="87.098" y="9">May</tspan>
+                </text>
+                <text id="Jun">
+                    <tspan x="110.255" y="9">Jun</tspan>
+                </text>
+                <text id="Jul">
+                    <tspan x="132.0555" y="9">Jul</tspan>
+                </text>
+                <text id="Aug">
+                    <tspan x="151.147" y="9">Aug</tspan>
+                </text>
+                <text id="Sep">
+                    <tspan x="172.228" y="9">Sep</tspan>
+                </text>
+                <text id="Oct">
+                    <tspan x="194.2635" y="9">Oct</tspan>
+                </text>
+                <text id="Nov">
+                    <tspan x="215.35" y="9">Nov</tspan>
+                </text>
+                <text id="Dec">
+                    <tspan x="238.327" y="9">Dec</tspan>
+                </text>
+            </g>
+            <path d="M12,90 C55.6143395,84.1298119 99.9395357,86.2161469 143.776798,81.681085 C183.756391,77.5451076 220.977809,70.1686638 261,69" id="Path" stroke="#D598D6" stroke-width="2" stroke-linecap="round"></path>
+            <path d="M12,90 C55.6143395,72.9485013 99.9395357,79.0088077 143.776798,65.8355327 C183.756391,53.821503 220.977809,32.3946902 261,29" id="Path-Copy" stroke="#D3BF72" stroke-width="2" stroke-linecap="round"></path>
+            <path d="M11,90 C25.0052342,86.2714286 38.880112,81.5034854 53.0157025,78.8142857 C81.6205463,73.3724093 138.708133,77.7241562 158.352914,75.6803571 C192.854824,72.0908556 231.833166,61.0052623 264,42" id="Path-2" stroke="#7AC2C0" stroke-width="2" stroke-linecap="round"></path>
+        </g>
+    </g>
+</svg>

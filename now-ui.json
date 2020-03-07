@@ -1,6 +1,24 @@
 {
 	"components": {
-	    "snc-sentiment-rank": {
+	    "snc-si-sentiment-rank": {
+	        "innerComponents": [
+				"snc-si-sentiment-capture",
+				"snc-si-sentiment-list",
+				"snc-si-sentiment-timeline"
+			]
+		},
+		"snc-si-sentiment-capture": {
+	        "innerComponents": [
+				"snc-si-sentiment-icon"
+			]
+		},
+		"snc-si-sentiment-list": {
+	        "innerComponents": []
+		},
+		"snc-si-sentiment-timeline": {
+	        "innerComponents": []
+		},
+		"snc-si-sentiment-icon": {
 	        "innerComponents": []
 	    }
 	},
