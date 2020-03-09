@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_ws_definition">
+    <sys_ws_definition action="INSERT_OR_UPDATE">
+        <active>true</active>
+        <base_uri>/api/x_snc_snt_rnk_cmp/sentrank</base_uri>
+        <consumes>application/json,application/xml,text/xml</consumes>
+        <consumes_customized>false</consumes_customized>
+        <default_version>No active default version</default_version>
+        <doc_link/>
+        <enforce_acl>131b2cdfdb5b0010992da2b44496199e</enforce_acl>
+        <is_versioned>false</is_versioned>
+        <name>SentRank</name>
+        <namespace>x_snc_snt_rnk_cmp</namespace>
+        <produces>application/json,application/xml,text/xml</produces>
+        <produces_customized>false</produces_customized>
+        <service_id>sentrank</service_id>
+        <short_description/>
+        <sys_class_name>sys_ws_definition</sys_class_name>
+        <sys_created_by>dylan.lindgren</sys_created_by>
+        <sys_created_on>2020-03-07 05:29:03</sys_created_on>
+        <sys_id>ed06205fdb5b0010992da2b4449619de</sys_id>
+        <sys_mod_count>1</sys_mod_count>
+        <sys_name>SentRank</sys_name>
+        <sys_package display_value="Sentiment Ranking Component" source="x_snc_snt_rnk_cmp">b6a5a81fdb5b0010992da2b44496196b</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Sentiment Ranking Component">b6a5a81fdb5b0010992da2b44496196b</sys_scope>
+        <sys_update_name>sys_ws_definition_ed06205fdb5b0010992da2b4449619de</sys_update_name>
+        <sys_updated_by>dylan.lindgren</sys_updated_by>
+        <sys_updated_on>2020-03-07 05:52:17</sys_updated_on>
+    </sys_ws_definition>
+</record_update>

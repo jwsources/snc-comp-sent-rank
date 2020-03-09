@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_scope_privilege">
+    <sys_scope_privilege action="INSERT_OR_UPDATE">
+        <operation>execute</operation>
+        <source_scope display_value="Sentiment Ranking Component">b6a5a81fdb5b0010992da2b44496196b</source_scope>
+        <status>allowed</status>
+        <sys_class_name>sys_scope_privilege</sys_class_name>
+        <sys_created_by>dylan.lindgren</sys_created_by>
+        <sys_created_on>2020-03-08 03:42:38</sys_created_on>
+        <sys_id>664799a3dbdb0010992da2b4449619bc</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>ManyToManyChecker</sys_name>
+        <sys_package display_value="Sentiment Ranking Component" source="x_snc_snt_rnk_cmp">b6a5a81fdb5b0010992da2b44496196b</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Sentiment Ranking Component">b6a5a81fdb5b0010992da2b44496196b</sys_scope>
+        <sys_update_name>sys_scope_privilege_664799a3dbdb0010992da2b4449619bc</sys_update_name>
+        <sys_updated_by>dylan.lindgren</sys_updated_by>
+        <sys_updated_on>2020-03-08 03:42:38</sys_updated_on>
+        <target_name>ManyToManyChecker</target_name>
+        <target_scope display_value="Global">global</target_scope>
+        <target_type>sys_script_include</target_type>
+    </sys_scope_privilege>
+</record_update>

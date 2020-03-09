@@ -1,0 +1,108 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_script_include">
+    <sys_script_include action="INSERT_OR_UPDATE">
+        <access>package_private</access>
+        <active>true</active>
+        <api_name>x_snc_snt_rnk_cmp.SentRank</api_name>
+        <caller_access/>
+        <client_callable>false</client_callable>
+        <description/>
+        <name>SentRank</name>
+        <script><![CDATA[var SentRank = Class.create();
+SentRank.prototype = {
+    initialize: function() {
+	},
+	
+	canCreate: function canCreate (userID) {
+		return true;
+	},
+	
+	create: function create (userId, score, taskTableName, taskId) {
+
+		var arGr = new GlideRecord('asmt_assessable_record');
+		arGr.addQuery('source_table', 'sys_user');
+		arGr.addQuery('source_id', userId);
+		arGr.query();
+
+		if (!arGr.next()) {
+			arGr = new GlideRecord('asmt_assessable_record');
+			arGr.initialize();
+			arGr.setValue('source_table', 'sys_user');
+			arGr.setValue('source_id', userId);
+			arGr.setValue('metric_type', '82db6813db9b0010992da2b44496194a');
+			arGr.setValue('dm_display', 'true');
+			arGr.setValue('live_feed', 'false');
+			arGr.setValue('sys_domain', 'global');
+			arGr.insert();
+		}
+
+		var aiGr = new GlideRecord('asmt_assessment_instance');
+		aiGr.initialize();
+		aiGr.setValue('assessment_group', 'bbf99d27dbdb0010992da2b444961998');
+		aiGr.setValue('metric_type', '82db6813db9b0010992da2b44496194a');
+
+		aiGr.setValue('state', 'complete');
+		aiGr.setValue('percent_answered', '100');
+		aiGr.setValue('sys_domain', 'global');
+
+		aiGr.setValue('related_table_1', taskTableName);
+		aiGr.setValue('related_record_1', taskId);
+
+		aiGr.setValue('user', gs.getUserID());
+		aiGr.setValue('task', taskId);
+		var aiSysId = aiGr.insert();
+		
+		var aiqGr = new GlideRecord('asmt_assessment_instance_question');
+		aiqGr.initialize();
+		aiqGr.setValue('category', '316819e3dbdb0010992da2b444961996');
+		aiqGr.setValue('instance', aiSysId);
+		aiqGr.setValue('metric', '9a8899e3dbdb0010992da2b444961982');
+		aiqGr.setValue('source_table', 'sys_user');
+		aiqGr.setValue('source_id', userId);
+		aiqGr.setValue('sys_domain', 'global');
+		aiqGr.setValue('is_hidden', 'false');
+		aiqGr.setValue('value', score);
+		var aiqSysId = aiqGr.insert();
+		
+		return {
+			assessmentInstance: aiSysId,
+			assessmentInstanceQuestion: aiqSysId
+		}
+	},
+	
+	list: function list (userId) {
+
+		var aiqGr = new GlideRecord('asmt_assessment_instance_question');
+		aiqGr.addQuery('source_id', userId);
+		aiqGr.addQuery('source_table', 'sys_user');
+		aiqGr.setValue('instance.state', 'complete');
+		aiqGr.query();
+
+		var list = [];
+
+		while (aiqGr.next()) {
+			list.push({
+				date: new GlideDateTime(aiqGr.getValue('sys_created_on')).getLocalDate().toString(),
+				agent: aiqGr.getDisplayValue('instance.user'),
+				score: aiqGr.getValue('value')
+			});
+		}
+
+		return list;
+	},
+
+    type: 'SentRank'
+};]]></script>
+        <sys_class_name>sys_script_include</sys_class_name>
+        <sys_created_by>dylan.lindgren</sys_created_by>
+        <sys_created_on>2020-03-07 05:28:21</sys_created_on>
+        <sys_id>dfd5ac1fdb5b0010992da2b4449619e9</sys_id>
+        <sys_mod_count>29</sys_mod_count>
+        <sys_name>SentRank</sys_name>
+        <sys_package display_value="Sentiment Ranking Component" source="x_snc_snt_rnk_cmp">b6a5a81fdb5b0010992da2b44496196b</sys_package>
+        <sys_policy>read</sys_policy>
+        <sys_scope display_value="Sentiment Ranking Component">b6a5a81fdb5b0010992da2b44496196b</sys_scope>
+        <sys_update_name>sys_script_include_dfd5ac1fdb5b0010992da2b4449619e9</sys_update_name>
+        <sys_updated_by>dylan.lindgren</sys_updated_by>
+        <sys_updated_on>2020-03-08 04:26:15</sys_updated_on>
+    </sys_script_include>
+</record_update>

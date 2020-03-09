@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update sys_domain="global" table="asmt_metric_definition">
+    <asmt_metric_definition action="INSERT_OR_UPDATE">
+        <display>5</display>
+        <metric display_value="User Sentiment">9a8899e3dbdb0010992da2b444961982</metric>
+        <normalization_input>0</normalization_input>
+        <order>5</order>
+        <selected_image/>
+        <sys_class_name>asmt_metric_definition</sys_class_name>
+        <sys_created_by>dylan.lindgren</sys_created_by>
+        <sys_created_on>2020-03-08 03:48:31</sys_created_on>
+        <sys_domain>global</sys_domain>
+        <sys_domain_path>/</sys_domain_path>
+        <sys_id>fca8d9e3dbdb0010992da2b4449619de</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>5</sys_name>
+        <sys_package display_value="Sentiment Ranking Component" source="x_snc_snt_rnk_cmp">b6a5a81fdb5b0010992da2b44496196b</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Sentiment Ranking Component">b6a5a81fdb5b0010992da2b44496196b</sys_scope>
+        <sys_update_name>asmt_metric_definition_fca8d9e3dbdb0010992da2b4449619de</sys_update_name>
+        <sys_updated_by>dylan.lindgren</sys_updated_by>
+        <sys_updated_on>2020-03-08 03:48:31</sys_updated_on>
+        <unselected_image/>
+        <value>5</value>
+    </asmt_metric_definition>
+    <sys_translated_text action="delete_multiple" query="documentkey=fca8d9e3dbdb0010992da2b4449619de"/>
+</record_update>
