@@ -6,7 +6,7 @@
       "headers": {
         "Authorization": "Basic ZHlsYW4ubGluZGdyZW46V29nZXdvMTI="
       },
-      "proxies": ["api", "amb"]
+      "proxies": ["/api", "/amb"]
     },
     "test": {
         "unit": [

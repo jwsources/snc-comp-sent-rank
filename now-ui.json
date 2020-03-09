@@ -13,7 +13,9 @@
 			]
 		},
 		"snc-si-sentiment-list": {
-	        "innerComponents": []
+	        "innerComponents": [
+				"now-loader"
+			]
 		},
 		"snc-si-sentiment-timeline": {
 	        "innerComponents": []
@@ -22,5 +24,5 @@
 	        "innerComponents": []
 	    }
 	},
-	"scopeName": "x_snc_c_sentrank"
+	"scopeName": "x_snc_snt_rnk_cmp"
 }

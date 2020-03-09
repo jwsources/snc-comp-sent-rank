@@ -1,7 +1,7 @@
 {
 	"name": "@dylan.lindgren/snc-sentiment-rank",
-	"version": "0.0.1",
-	"private": false,
+	"version": "1.0.0",
+	"private": true,
 	"description": "A sentiment ranking component for Agent Workspace",
 	"keywords": [
 		"ServiceNow",
@@ -15,16 +15,21 @@
 	},
 	"module": "src/index.js",
 	"dependencies": {
-		"@servicenow/ui-core": "orlando",
-		"@servicenow/ui-renderer-snabbdom": "orlando",
-		"@servicenow/cli-archetype": "17.0.1-rc.24",
-		"@servicenow/cli-component-archetype": "17.0.1-rc.24",
-		"@servicenow/sass-theme": "orlando",
+		"@servicenow/cli-archetype": "orlando",
+		"@servicenow/cli-component-archetype": "orlando",
+		"@servicenow/now-alert": "^17.0.0-rc.7",
+		"@servicenow/now-loader": "orlando",
+		"@servicenow/now-tooltip": "orlando",
 		"@servicenow/sass-kit": "orlando",
+		"@servicenow/sass-theme": "orlando",
+		"@servicenow/ui-core": "orlando",
+		"@servicenow/ui-effect-amb": "^17.0.0-rc.17",
+		"@servicenow/ui-effect-http": "orlando",
+		"@servicenow/ui-renderer-snabbdom": "orlando",
 		"sn-translate": "orlando"
 	},
 	"devDependencies": {
-		"@servicenow/cli-archetype-dev": "17.0.1-rc.24",
-		"@servicenow/cli-component-archetype-dev": "17.0.1-rc.24"
+		"@servicenow/cli-archetype-dev": "orlando",
+		"@servicenow/cli-component-archetype-dev": "orlando"
 	}
 }
