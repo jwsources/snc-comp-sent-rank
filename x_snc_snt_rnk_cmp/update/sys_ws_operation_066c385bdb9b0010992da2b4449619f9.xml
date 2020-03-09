@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_ws_operation">
+    <sys_ws_operation action="INSERT_OR_UPDATE">
+        <active>true</active>
+        <consumes>application/json,application/xml,text/xml</consumes>
+        <consumes_customized>false</consumes_customized>
+        <default_operation_uri/>
+        <enforce_acl>131b2cdfdb5b0010992da2b44496199e</enforce_acl>
+        <http_method>GET</http_method>
+        <name>Get sentiment history for user</name>
+        <operation_script><![CDATA[(function process(/*RESTAPIRequest*/ request, /*RESTAPIResponse*/ response) {
+
+    var userId = request.pathParams.userId;
+
+    if (userId) {
+        var sr = new SentRank();
+        response.setBody(sr.list(userId));
+    }
+
+})(request, response);]]></operation_script>
+        <operation_uri>/api/x_snc_snt_rnk_cmp/sentrank/list/{userId}</operation_uri>
+        <produces>application/json,application/xml,text/xml</produces>
+        <produces_customized>false</produces_customized>
+        <relative_path>/list/{userId}</relative_path>
+        <request_example/>
+        <requires_acl_authorization>false</requires_acl_authorization>
+        <requires_authentication>true</requires_authentication>
+        <requires_snc_internal_role>false</requires_snc_internal_role>
+        <short_description/>
+        <sys_class_name>sys_ws_operation</sys_class_name>
+        <sys_created_by>dylan.lindgren</sys_created_by>
+        <sys_created_on>2020-03-07 07:07:08</sys_created_on>
+        <sys_id>066c385bdb9b0010992da2b4449619f9</sys_id>
+        <sys_mod_count>3</sys_mod_count>
+        <sys_name>Get sentiment history for user</sys_name>
+        <sys_package display_value="Sentiment Ranking Component" source="x_snc_snt_rnk_cmp">b6a5a81fdb5b0010992da2b44496196b</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Sentiment Ranking Component">b6a5a81fdb5b0010992da2b44496196b</sys_scope>
+        <sys_update_name>sys_ws_operation_066c385bdb9b0010992da2b4449619f9</sys_update_name>
+        <sys_updated_by>dylan.lindgren</sys_updated_by>
+        <sys_updated_on>2020-03-07 07:17:47</sys_updated_on>
+        <web_service_definition display_value="SentRank">ed06205fdb5b0010992da2b4449619de</web_service_definition>
+        <web_service_version/>
+    </sys_ws_operation>
+</record_update>

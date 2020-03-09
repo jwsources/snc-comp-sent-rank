@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_security_acl_role">
+    <sys_security_acl_role action="INSERT_OR_UPDATE">
+        <sys_class_name>sys_security_acl_role</sys_class_name>
+        <sys_created_by>dylan.lindgren</sys_created_by>
+        <sys_created_on>2020-03-07 05:52:01</sys_created_on>
+        <sys_id>6e3b6013db9b0010992da2b444961955</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>.x_snc_snt_rnk_cmp.users</sys_name>
+        <sys_package display_value="Sentiment Ranking Component" source="x_snc_snt_rnk_cmp">b6a5a81fdb5b0010992da2b44496196b</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Sentiment Ranking Component">b6a5a81fdb5b0010992da2b44496196b</sys_scope>
+        <sys_security_acl display_value="Sentiment Ranking API">131b2cdfdb5b0010992da2b44496199e</sys_security_acl>
+        <sys_update_name>sys_security_acl_role_6e3b6013db9b0010992da2b444961955</sys_update_name>
+        <sys_updated_by>dylan.lindgren</sys_updated_by>
+        <sys_updated_on>2020-03-07 05:52:01</sys_updated_on>
+        <sys_user_role display_value="x_snc_snt_rnk_cmp.users" name="x_snc_snt_rnk_cmp.users">16c56c5bdb5b0010992da2b444961925</sys_user_role>
+        <transaction_id/>
+    </sys_security_acl_role>
+</record_update>

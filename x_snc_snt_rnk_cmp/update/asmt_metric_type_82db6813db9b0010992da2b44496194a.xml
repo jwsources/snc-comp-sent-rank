@@ -1,0 +1,62 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update sys_domain="global" table="asmt_metric_type">
+    <asmt_metric_type action="INSERT_OR_UPDATE">
+        <active>true</active>
+        <allow_public>false</allow_public>
+        <allow_retake>false</allow_retake>
+        <anonymize>false</anonymize>
+        <business_rule display_value="Auto business rule for Assessments">6e2ce813db9b0010992da2b444961925</business_rule>
+        <chat_survey>false</chat_survey>
+        <condition/>
+        <default_filter>-- None --</default_filter>
+        <delete_business_rule display_value="Auto deletion rule for Assessments">2e2c2c13db9b0010992da2b444961949</delete_business_rule>
+        <description/>
+        <disable_ui_action/>
+        <display_all_filters>false</display_all_filters>
+        <display_field>none</display_field>
+        <duration>1970-01-15 00:00:00</duration>
+        <enable_ui_action/>
+        <end_note/>
+        <enforce_condition>false</enforce_condition>
+        <evaluation_method>assessment</evaluation_method>
+        <filter_condition/>
+        <filter_table>sys_user</filter_table>
+        <introduction/>
+        <job/>
+        <live_feed>false</live_feed>
+        <name>Sentiment</name>
+        <not_show_intro_note>false</not_show_intro_note>
+        <notify_if_overdue>false</notify_if_overdue>
+        <notify_user>true</notify_user>
+        <one_click_survey>false</one_click_survey>
+        <overdue_notify_user/>
+        <portal_pagination>none</portal_pagination>
+        <publish_state>published</publish_state>
+        <roles>x_snc_snt_rnk_cmp.users</roles>
+        <sample_metric/>
+        <scale_factor>5</scale_factor>
+        <schedule_period>0</schedule_period>
+        <schedule_type>on_demand</schedule_type>
+        <scoring_type>percent</scoring_type>
+        <signature/>
+        <source_table/>
+        <survey_owners>95f9023b1bc600107efcda09dc4bcb4d</survey_owners>
+        <sys_class_name>asmt_metric_type</sys_class_name>
+        <sys_created_by>dylan.lindgren</sys_created_by>
+        <sys_created_on>2020-03-07 05:55:44</sys_created_on>
+        <sys_domain>global</sys_domain>
+        <sys_domain_path>/</sys_domain_path>
+        <sys_id>82db6813db9b0010992da2b44496194a</sys_id>
+        <sys_mod_count>2</sys_mod_count>
+        <sys_name>Sentiment</sys_name>
+        <sys_package display_value="Sentiment Ranking Component" source="x_snc_snt_rnk_cmp">b6a5a81fdb5b0010992da2b44496196b</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Sentiment Ranking Component">b6a5a81fdb5b0010992da2b44496196b</sys_scope>
+        <sys_update_name>asmt_metric_type_82db6813db9b0010992da2b44496194a</sys_update_name>
+        <sys_updated_by>dylan.lindgren</sys_updated_by>
+        <sys_updated_on>2020-03-08 03:48:51</sys_updated_on>
+        <table>sys_user</table>
+        <url/>
+        <user_field/>
+    </asmt_metric_type>
+    <sys_translated_text action="delete_multiple" query="documentkey=82db6813db9b0010992da2b44496194a"/>
+</record_update>
